@@ -1,5 +1,5 @@
-#Tercera Pre-entrega
-##Funcionalidad de "Book Repository"
+# Tercera Pre-entrega
+## Funcionalidad de "Book Repository"
 Blog para gestion y visualizacion de Libros
 
 Main de pagina es la raiz.
