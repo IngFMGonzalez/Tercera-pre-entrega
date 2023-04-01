@@ -17,7 +17,7 @@ class Autor(models.Model):
     fecha_nacimiento = models.DateField()
 
     def __str__(self):
-        return f"{self.id} - Nombre: {self.nombre} - Apellido: {self.apellido}- Nacionalidad: {self.nacionalidad} - Fecha de Nacimiento: {self.fecha_nacimiento}"
+        return f"{self.id} - Nombre: {self.nombre} - Apellido: {self.apellido} - Nacionalidad: {self.nacionalidad} - Fecha de Nacimiento: {self.fecha_nacimiento}"
     
 class Genero(models.Model):
     genero = models.CharField(max_length=100)

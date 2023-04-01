@@ -28,8 +28,6 @@ class LibroList(ListView):
 
         return book
 
-
-
 class AutorCreate(CreateView):
     model = Autor
     success_url = reverse_lazy("autor-list")
@@ -53,7 +51,7 @@ class AutorList(ListView):
 
 class GeneroCreate(CreateView):
     model = Genero
-    success_url = reverse_lazy("libro-list")
+    success_url = reverse_lazy("genero-list")
     fields = '__all__'
 
 class GeneroList(ListView):
